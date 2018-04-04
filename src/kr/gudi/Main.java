@@ -14,7 +14,7 @@ public class Main extends HttpServlet {
 
 	@Override //부모가 만들어 진것을 재구성 하려는 뜻      get방식은 그냥 쓰면됨                                ServletException  IOException  두종류 오류           
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("doGet : Main");
+		System.out.println("doGet : 안녕하세요");
 		getParam(req);
 	}
 
